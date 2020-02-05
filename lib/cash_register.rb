@@ -21,7 +21,7 @@ class CashRegister
       off = @total * @discount
       @total - off
     else
-    percentage * @total
+      puts "no discount to apply"
   end
     
 end
