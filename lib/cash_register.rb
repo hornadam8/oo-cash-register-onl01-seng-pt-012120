@@ -17,6 +17,7 @@ class CashRegister
     @total += value
     num.times do 
       @items << item
+    end
   end
   
   def apply_discount
